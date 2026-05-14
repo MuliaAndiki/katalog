@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - Katalog Produk</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      header {
+        background: white;
+        color: #333;
+        padding: 30px 20px;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      header p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+      header a {
+        display: inline-block;
+        background-color: #667eea;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+      }
+      header a:hover {
+        background-color: #764ba2;
+      }
+      .contact-info {
+        background: white;
+        padding: 40px;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      }
+      .contact-item {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .contact-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .contact-item h3 {
+        color: #667eea;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .contact-item p {
+        color: #666;
+        line-height: 1.8;
+        font-size: 1.05em;
+      }
+      .contact-item a {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+      .contact-item a:hover {
+        color: #764ba2;
+        text-decoration: underline;
+      }
+      .back-button {
+        text-align: center;
+        margin-top: 30px;
+      }
+      .back-button a {
+        display: inline-block;
+        background-color: #667eea;
+        color: white;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+      }
+      .back-button a:hover {
+        background-color: #764ba2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>📞 Hubungi Kami</h1>
+        <p>Kami siap membantu Anda kapan saja</p>
+        <a href="/">← Kembali ke Homepage</a>
+      </header>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <h3>📧 Email</h3>
+          <p>
+            Untuk pertanyaan umum:
+            <a href="mailto:info@katalogproduk.com">info@katalogproduk.com</a>
+          </p>
+          <p>
+            Untuk dukungan pelanggan:
+            <a href="mailto:support@katalogproduk.com"
+              >support@katalogproduk.com</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h3>📱 Telepon</h3>
+          <p>
+            Layanan pelanggan 24/7:
+            <a href="tel:+621234567890">+62 123-456-7890</a>
+          </p>
+          <p>Jam operasional: Senin - Minggu, 08:00 - 20:00 WIB</p>
+        </div>
+
+        <div class="contact-item">
+          <h3>📍 Alamat Fisik</h3>
+          <p>
+            Katalog Produk Indonesia<br />
+            Jl. Teknologi No. 123<br />
+            Jakarta Selatan, DKI Jakarta 12345<br />
+            Indonesia
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h3>🕐 Jam Operasional</h3>
+          <p>
+            <strong>Hari Kerja:</strong> 08:00 - 18:00 WIB<br />
+            <strong>Akhir Pekan:</strong> 10:00 - 16:00 WIB<br />
+            <strong>Hari Libur Nasional:</strong> Tutup
+          </p>
+        </div>
+
+        <div class="contact-item">
+          <h3>💬 Media Sosial</h3>
+          <p>
+            Ikuti kami di media sosial untuk update terbaru dan penawaran
+            eksklusif:<br />
+            Facebook • Instagram • Twitter • LinkedIn
+          </p>
+        </div>
+      </div>
+
+      <div class="back-button">
+        <a href="/produk/">Lihat Produk Kami</a>
+      </div>
+    </div>
+  </body>
+</html>
