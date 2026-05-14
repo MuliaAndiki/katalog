@@ -1,5 +1,7 @@
 # 🛒 Website Katalog Produk Sederhana dengan Django
 
+Disusun oleh: Mulia Andiki
+Npm: 2308107010013
 Sebuah website katalog produk sederhana yang dibuat menggunakan framework Django untuk menampilkan daftar produk, detail produk, halaman kontak, dan homepage.
 
 ---
